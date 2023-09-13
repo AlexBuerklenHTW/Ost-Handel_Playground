@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StylesContactForm.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title class="titleContactForm">Ost-Handel</title>
+</head>
+<body>
+<div class="container">
+
+<a href="index.html"><img src="/img/logoContactForm.png" class="img-fluid logo" alt="logo"></a>  
+
+<div class="row contactAndLanguage">
+  <div class="col">
+    <h1 class="contactForm">Kontaktformular</h1>
+  </div>
+
+  <div class="col d-flex justify-content-end">
+
+    <div class="language">
+      <a class="btn btn-primary" language="english">ENG</a>
+      <a class="btn btn-primary" language="russian">RUS</a>
+      <a class="active btn btn-primary" language="german">DE</a>
+    </div>
+
+  </div>
+
+</div>
+
+  <form id="contactForm" action="https://formsubmit.co/916497af6d2e09ee76ce27ed5157290e" method="POST">
+  
+      <div class="mb-3">
+        <label class="form-label nameForm" for="name">Name</label>
+        <input class="form-control" id="name" type="text" required/>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label companyForm" for="name" >Firma</label>
+        <input class="form-control" id="name" type="text" required/>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label emailForm" for="emailAddress">Email-Addresse</label>
+        <input class="form-control" id="emailAddress" type="email" required/>
+      </div>
+  
+      <div class="mb-3">
+        <label class="form-label messageForm" for="message">Nachricht</label>
+        <textarea class="form-control" id="message" type="text" style="height: 10rem;" required></textarea>
+      </div>
+  
+      <div class="d-grid">
+        <button class="btn btn-primary btn-lg submitForm" type="submit">Submit</button>
+      </div>
+    </form>
+    <aside class="dataSafetyDisclaimer">*Wir speichern keine Daten oder geben diese an Dritte weiter</aside>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+
+<script src="ScriptContactForm.js"></script>
+
+
+</html>
