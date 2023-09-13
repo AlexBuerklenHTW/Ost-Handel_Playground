@@ -65,8 +65,12 @@ p {
   padding-left: 10rem; 
 }
 
-.video{
-  overflow: hidden;
-  max-width: 100%;
-  height: auto;
+.video-wrapper{
+  width: 100%;
 }
+
+video{
+  width: 100%;
+  height: 100%;
+}
+
