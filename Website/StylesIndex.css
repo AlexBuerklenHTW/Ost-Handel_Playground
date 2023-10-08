@@ -1,24 +1,7 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
-
 html{
-  font-size: 16px;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #fff;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
-}
-
-body{
-  margin: 0;
-  padding: 0;
-  max-width: 100%; 
+  box-sizing: border-box;
 }
 
 h2 {
@@ -54,7 +37,7 @@ p {
   color:white;
   color: #319dd7;
   font-size: 70px;
-  margin-top: -300px;
+  margin-top: 300px;
   margin-left: 300px;
 }
 
@@ -72,12 +55,21 @@ p {
   padding-left: 10rem; 
 }
 
-/* .video-wrapper{
-  width: 100vw;
-  height: 100vh;
+.video-bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  transform: scaleX(-1);
 }
 
-.video{
-  width: 100vw;
-  height: 100vh;
-} */
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
