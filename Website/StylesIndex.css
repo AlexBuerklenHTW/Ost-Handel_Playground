@@ -1,40 +1,12 @@
-html{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-h2 {
-  font-size: 50px;
-  color: white;
-}
-
-h3 {
-  font-size: 35px;
-  color: white;
-}
-
-p {
-  font-size: 30px;
-}
-
-.description {
-  font-size: 38px;
-  color: white;
-  padding-left: 1em;
-  padding-bottom: 15em;
-}
-
 .transition{
   opacity: 0.9;
-  animation: appear 2s;
-  animation-fill-mode: forwards;
+  animation: appear 1.3s ease-in-out forwards;
+  margin: -50px;
 }
 
 .logoText{
-  animation: appear 2s;
-  animation-fill-mode: forwards;
-  color:white;
+  animation: appear 1.3s ease-in-out forwards;
+  color:black;
   color: #319dd7;
   font-size: 70px;
   margin-top: 300px;
@@ -49,10 +21,6 @@ p {
 @keyframes appear {
   0% { left: 500px; opacity: 0; }
   100% { left: 16px; opacity: 1; }  
-}
-
-#products{
-  padding-left: 10rem; 
 }
 
 .video-bg{
@@ -72,4 +40,5 @@ p {
   position: relative;
   overflow: hidden;
   min-height: 100vh;
+  /* margin-bottom: 5rem; */
 }
