@@ -1,20 +1,6 @@
 body{
   background-color: black;
-}
-
-.top-logo-text{
-  color: #319dd7;
-  margin-top: -5em;
-  font-size: 50px;
-  padding-left: 5em;
-}
-
-
-.bottom-logo-text{
-  color: #319dd7;
-  margin-top: -4em;
-  font-size: 50px;
-  padding-left: 6em;  
+  font-family: 'Raleway', sans-serif;
 }
 
 .transition{
@@ -40,26 +26,13 @@ body{
   transform: scaleX(-1);
 }
 
-
-
 #products ul{
   list-style: none;
-  background-color: black;
   color: white;
 }
 
 .description{
-  background-color: black;
-  color: white;
-  font-size: 1.5em;
-}
-
-.navbar{
-  background-color: black;
-}
-
-.product-title{
-  background-color: black;
+  /* font-size: 40px; */
   color: white;
 }
 
@@ -72,6 +45,13 @@ body{
 }
 
 .impressum{
-  background-color: black;
+  color: white;
+}
+
+.navbar{
+  padding-top: 2em;
+}
+
+.products{
   color: white;
 }
