@@ -32,8 +32,9 @@ body{
 }
 
 .description{
-  /* font-size: 40px; */
   color: white;
+  padding-bottom: 5em;
+  padding-top: 5em;
 }
 
 .hero{
@@ -49,7 +50,7 @@ body{
 }
 
 .navbar{
-  padding-top: 2em;
+  padding-top: 2.5em;
 }
 
 .products{
